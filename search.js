@@ -69,13 +69,28 @@ let createPersonnage = {
         for (let i = 0; i < personnages.length; i++) {
             let card = document.createElement("div");
             card.classList.add("card");
-            card.innerHTML = `
-            
-            `
+            for (let i = 0; i < personnages.length; i++) {
+                let card = document.createElement("div")
+                card.classList.add("card")
+                card.innerHTML = 
+                `
+                
+                <img src="${personnages[i].img}" alt="${personnages[i].nom}">
 
-            
+
+                `
+
+               profil.appendChild(card);
+
+            }
+
+
+
+
+
+        }
     }
-}}
+}
 
-
+profil.appendChild(createPersonnage.addCard());
 
