@@ -76,10 +76,10 @@ let createElement = {
              <h2>${personnages[i].pseudo}</h2>
              <img src="img/${personnages[i].picture}"  alt="Photo Héros">
              <ul>
-             <li>${personnages[i].age}</li>
-             <li>${personnages[i].gender}</li>
-             <li>${personnages[i].search}</li>
-             <li>${personnages[i].region}</li>
+             <li>J'ai ${personnages[i].age} ans</li>
+             <li>Genre : ${personnages[i].gender}</li>
+             <li>Je recherche : ${personnages[i].search}</li>
+             <li>Région : ${personnages[i].region}</li>
              </ul>
              <p>${personnages[i].description}</p>
 
