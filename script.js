@@ -63,3 +63,19 @@ const personnages = [
     personnage23,
     personnage24
 ]
+
+let createPersonnage = {
+    addCard() {
+        for (let i = 0; i < personnages.length; i++) {
+            let card = document.createElement("div");
+            card.classList.add("card");
+            card.innerHTML = `
+            
+            `
+
+            
+    }
+}}
+
+
+
