@@ -42,3 +42,132 @@ body>header>nav>div>a:nth-child(4) {
 body {
     background-color: #BB9457;
 }
+
+#profil {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+#profil>div:nth-child(1) {
+    background-color: #99582A;
+    margin: 3rem;
+    align-items: center;
+}
+
+#profil>div:nth-child(2) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(3) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(4) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(5) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(6) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(7) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(8) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(9) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(10) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(11) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(12) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(13) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(14) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(15) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(16) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(17) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(18) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(19) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(20) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(21) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(22) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(23) {
+    background-color: #99582A;
+    margin: 3rem;
+}
+
+#profil>div:nth-child(24) {
+    background-color: #99582A;
+    margin: 3rem;
+}
