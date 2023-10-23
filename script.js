@@ -35,3 +35,31 @@ let personnage21 = new personnage(69, "", "image21.jpg", "femme", "Isabella", 59
 let personnage22 = new personnage(70, "", "image22.jpg", "homme", "Alexander", 61, "Homme", "J'adore les voyages.");
 let personnage23 = new personnage(71, "", "image23.jpg", "femme", "Grace", 55, "Homme", "Je suis musicienne.");
 let personnage24 = new personnage(72, "", "image24.jpg", "homme", "Ethan", 64, "Femme", "J'adore les animaux.");
+
+
+const personnages = [
+    personnage1,
+    personnage2,
+    personnage3,
+    personnage4,
+    personnage5,
+    personnage6,
+    personnage7,
+    personnage8,
+    personnage9,
+    personnage10,
+    personnage11,
+    personnage12,
+    personnage13,
+    personnage14,
+    personnage15,
+    personnage16,
+    personnage17,
+    personnage18,
+    personnage19,
+    personnage20,
+    personnage21,
+    personnage22,
+    personnage23,
+    personnage24
+]
