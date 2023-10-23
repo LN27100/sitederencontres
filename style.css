@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/* font-family: 'Satisfy', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+/* font-family: 'Kalam', cursive; */
+.navbar {
+    background-color: #6F1D1B;
+    height: 10rem;
+}
+
+a {
+    text-decoration: none;
+    color:#F3E4BF;
+    font-size: 2rem;
+    font-family: 'Kalam', cursive;
+}
+
+img {
+    width: 15rem;
+    height: auto;
+}
+
+
