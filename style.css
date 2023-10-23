@@ -1,22 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 /* font-family: 'Satisfy', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
 /* font-family: 'Kalam', cursive; */
 .navbar {
     background-color: #6F1D1B;
-    height: 10rem;
-}
-
-a {
-    text-decoration: none;
-    color:#F3E4BF;
-    font-size: 2rem;
-    font-family: 'Kalam', cursive;
+    height: 12rem;
+    margin-bottom: 10rem;
 }
 
 img {
-    width: 15rem;
+    width: 12rem;
     height: auto;
+}
+a {
+    margin-right: 15rem;
+}
+
+body>header>nav>div>a.navbar-brand {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Kalam', cursive;
+    color: #F3E4BF;
+}
+
+body>header>nav>div>a.nav-link.active {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Kalam', cursive;
+    color: #F3E4BF;
+}
+
+body>header>nav>div>a:nth-child(4) {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Kalam', cursive;
+    color: #F3E4BF;
 }
 
 
+body {
+    background-color: #BB9457;
+}
+
+.inscription {
+    font-family: 'Kalam', cursive;
+    color: #432818;
+}
+
+.texte {
+    font-family: 'Satisfy', cursive;
+    color: #99582A;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
