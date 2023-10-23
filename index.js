@@ -1,18 +1,16 @@
-const flexCheckDefault = document.getElementById('flexCheckDefault');
-const flexCheckChecked = document.getElementById('flexCheckChecked');
+let cgu = document.getElementById("cgu");
+let majeur = document.getElementById("majeur");
+let button = document.getElementById("button");
 
-flexCheckDefault.addEventListener('change', function () {
-    if (flexCheckDefault.checked) {
-        flexCheckChecked.disabled = false;
-    } else {
-        flexCheckChecked.disabled = true;
+function checkedd() {
+    if(cgu.checked && majeur.checked){
+        button.disabled = false;
+    }else{
+        button.disabled = true;
     }
-});
 
-flexCheckChecked.addEventListener('change', function () {
-    if (flexCheckChecked.checked) {
-        flexCheckDefault.disabled = false;
-    } else {
-        flexCheckDefault.disabled = true;
-    }
-});
+}
+
+cgu.addEventListener("change", checkedd);
+
+majeur.addEventListener("change", checkedd);
