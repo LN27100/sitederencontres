@@ -3,6 +3,7 @@ let majeur = document.getElementById("majeur");
 let button = document.getElementById("button");
 
 function checkedd() {
+    console.log('ok')
     if(cgu.checked && majeur.checked){
         button.disabled = false;
     }else{
@@ -17,4 +18,3 @@ majeur.addEventListener("change", checkedd);
 
 
 
-document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=index.html";
