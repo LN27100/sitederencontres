@@ -62,7 +62,7 @@ let createElement = {
 
             `
 
-            infos.appendChild(card)
+
             profil.appendChild(card);
 
         }
@@ -71,5 +71,5 @@ let createElement = {
 }
 
 
-infos.appendChild(createElement.createCard())
+profil.appendChild(createElement.createCard())
 
