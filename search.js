@@ -29,11 +29,11 @@ let personnage15 = new personnage("63", "Globe Trotteuse", "femme36-50-2.jpg", "
 let personnage16 = new personnage("64", "Le danseur", "homme36-50-2.jpg", "homme", "Occitanie", "48", "Femme", "J'adore la danse.");
 let personnage17 = new personnage("65", "Bob la bricoleuse", "femme36-50-3.jpg", "femme", "Ile-de-France", "38", "Les deux", "J'adore le bricolage.");
 let personnage18 = new personnage("66", "Sweety Candy", "homme36-50-3.jpg", "homme", "Nouvelle-Aquitaine", "40", "Femme", "Je suis un gourmand.");
-let personnage19 = new personnage("67", "Sophiadu80", "femmeplus50-1.jpg", "femme", "Grand-Est", "54", "Homme", "Je suis une amatrice de sports extrêmes.");
+let personnage19 = new personnage("67", "Sophiadu80", "femmeplus50-1.jpg", "femme", "Haut-de-France", "54", "Homme", "Je suis une amatrice de sports extrêmes.");
 let personnage20 = new personnage("68", "Bisounours", "hommeplus50-1.jpg", "homme", "Ile-de-France", "52", "Femme", "Je suis une amoureuse de la nature.");
-let personnage21 = new personnage("69", "Chichi", "femmeplus50-2.jpg", "femme", "Bretagne", "59", "Femme", "Je suis fan de jeux vidéo.");
+let personnage21 = new personnage("69", "Chichi", "femmeplus50-2.jpg", "femme", "Bretagne", "59", "Homme", "Je suis fan de jeux vidéo.");
 let personnage22 = new personnage("70", "Globe Trotteur", "hommeplus50-2.jpg", "homme", "Hauts-de-France", "61", "Homme", "J'adore les voyages.");
-let personnage23 = new personnage("71", "Douceur", "femmeplus50-3.jpg", "femme", "Centre-Val de Loire", "55", "Homme", "J'adore la danse de salon'.");
+let personnage23 = new personnage("71", "Douceur", "femmeplus50-3.jpg", "femme", "Centre-Val de Loire", "55", "Femme", "J'adore la danse de salon'.");
 let personnage24 = new personnage("72", "Grand matou", "hommeplus50-3.jpg", "homme", "Provence-Alpes", "64", "Femme", "J'adore les animaux.");
 
 
