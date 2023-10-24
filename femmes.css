@@ -337,7 +337,8 @@ body>header>nav>div>a:nth-child(4) {
 
 body {
     background-image: url(img/pexels-luis-fernandes-2061284.jpg);
-    background-size: 100%;  
+    background-size:cover; 
+    background-repeat: no-repeat; 
  }
 
 #profilFemme {
@@ -860,6 +861,8 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     text-decoration: none;
+    margin-left: 13rem;
+
 }
 
 footer {
