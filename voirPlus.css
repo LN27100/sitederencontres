@@ -90,37 +90,6 @@ body {
     background-color: #BB9457;
 }
 
-.inscription {
-    font-family: 'Kalam', cursive;
-    color: #432818;
-}
-
-.texte {
-    font-family: 'Kalam', cursive;
-    color: #432818;
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-left: 2rem;
-}
-
-#button {
-    background-color: #99582A;
-    border-color: #6F1D1B;
-    font-family: 'Kalam', cursive;
-    color: #F3E4BF;
-margin-left: 14.7rem;
-}
-
-
-
-.textInv {
-    font-family: 'Libre Baskerville', serif;
-}
-
-.dropdown {
-    visibility: hidden;
-}
-
 
 footer {
     font-family: 'Libre Baskerville', serif;
