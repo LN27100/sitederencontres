@@ -87,7 +87,7 @@ let createElement = {
             `
 
            infos.appendChild(card)
-                profil.appendChild(card);
+            
 
             }
 

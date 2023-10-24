@@ -14,3 +14,7 @@ function checkedd() {
 cgu.addEventListener("change", checkedd);
 
 majeur.addEventListener("change", checkedd);
+
+
+
+document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=index.html";
