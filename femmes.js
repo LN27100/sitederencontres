@@ -32,13 +32,11 @@ const femmes = [personnage2, personnage4, personnage6, personnage7, personnage9,
 
 let createElement = {
     createCard() {
-        for (let i = 0; i < hommes.length; i++) {
+        for (let i = 0; i < femmes.length; i++) {
             let card = document.createElement("div")
             card.classList.add("card")
             card.innerHTML =
                 `
-            
-            
              <h2>${femmes[i].pseudo}</h2>
              <img src="img/${femmes[i].picture}"  alt="Photo Héros">
              <ul>
@@ -47,7 +45,7 @@ let createElement = {
              <li>Je recherche : ${femmes[i].search}</li>
              <li>Région : ${femmes[i].region}</li>
              </ul>
-             <p>${hommes[i].description}</p>
+             <p>${femmes[i].description}</p>
              
             `
 
