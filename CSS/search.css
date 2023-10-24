@@ -21,8 +21,7 @@ body>header>nav>div>img {
     height: auto;
     mix-blend-mode: lighten;
 }
-
-body>header>nav>div>div>a {
+body > header > header > nav > div > a {
     text-decoration: none;
     font-size: 2rem;
     font-family: 'Kalam', cursive;
@@ -31,6 +30,8 @@ body>header>nav>div>div>a {
 
 body>header>nav>div>div>ul>li:nth-child(1)>a {
     text-decoration: none;
+    color: #F3E4BF;
+
 }
 
 body>header>nav>div>div>ul>li:nth-child(2)>a {
