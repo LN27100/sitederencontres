@@ -8,6 +8,14 @@
     height: 12rem;
 }
 
+a {
+    margin-right: 35rem;
+}
+
+body > header > nav > div > div {
+    text-decoration: none;
+}
+
 body > header > nav > div > img {
     width: 12rem;
     height: auto;
@@ -19,6 +27,14 @@ body>header>nav>div>div>a {
     font-size: 2rem;
     font-family: 'Kalam', cursive;
     color: #F3E4BF;
+}
+
+body > header > nav > div > div > ul > li:nth-child(1) > a {
+    text-decoration: none;
+}
+
+body > header > nav > div > div > ul > li:nth-child(2) > a {
+    text-decoration: none;
 }
 
 body>header>nav>div>div>ul>li:nth-child(1)>a {
