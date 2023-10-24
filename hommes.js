@@ -58,6 +58,7 @@ let createElement = {
              <li>Région : ${hommes[i].region}</li>
              </ul>
              <p>${hommes[i].description}</p>
+             <button>Voir plus</button>
 
 
             `

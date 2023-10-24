@@ -46,7 +46,8 @@ let createElement = {
              <li>Région : ${femmes[i].region}</li>
              </ul>
              <p>${femmes[i].description}</p>
-             
+             <button>Voir plus</button>
+
             `
 
           profilFemme.appendChild(card)
