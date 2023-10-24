@@ -71,7 +71,7 @@ let createElement = {
             card.classList.add("card")
             card.innerHTML = 
             `
-            
+        
             
              <h2>${personnages[i].pseudo}</h2>
              <img src="img/${personnages[i].picture}"  alt="Photo Héros">
@@ -82,6 +82,7 @@ let createElement = {
              <li>Région : ${personnages[i].region}</li>
              </ul>
              <p>${personnages[i].description}</p>
+             <button>Voir plus</button>
 
 
             `

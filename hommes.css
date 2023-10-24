@@ -310,7 +310,7 @@ body>header>nav>div>a:nth-child(4) {
     visibility: hidden;
 }
 
-body {
+#profil {
     background-image: url(img/background-hommes.jpg);
     background-repeat: no-repeat;
     background-size: cover;

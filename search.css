@@ -58,7 +58,6 @@ body>header>nav>div>div>ul>li:nth-child(2)>a:hover {
 
 }
 
-
 #infos>div>button {
     background-color: #6F1D1B;
     border-color: #6F1D1B;
@@ -335,11 +334,10 @@ body>header>nav>div>a:nth-child(4) {
     visibility: hidden;
 }
 
-body {
-    background-image: url(img/background-femmes.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
+#infos {
+    background-image: url(img/background-search.jpg);
+    background-size: 100%;
+}
 
 #infos {
     display: flex;

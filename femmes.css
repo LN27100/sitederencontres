@@ -335,11 +335,10 @@ body>header>nav>div>a:nth-child(4) {
     visibility: hidden;
 }
 
-body {
+#profilFemme {
     background-image: url(img/background-femmes.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
+    background-size: 100%;  
+ }
 
 #profilFemme {
     display: flex;
