@@ -17,7 +17,7 @@ let personnage3 = new personnage("51", "Juste moi", "homme19-25-2.jpg", "homme",
 let personnage4 = new personnage("52", "CandyCrush", "femme19-25-2.jpg", "femme", "Auvergne", "20", "Femme", "Je suis passionnée de cuisine.");
 let personnage5 = new personnage("53", "Dany", "homme19-25-3.jpg", "homme", "Occitanie", "24", "Les deux", "Je suis fan de cinéma.");
 let personnage6 = new personnage("54", "Queeny", "femme19-25-3.jpg", "femme", "Normandie", "21", "Homme", "J'adore les animaux.");
-let personnage7 = new personnage("55","La violoniste", "femme26-35-1.jpg", "femme", "Bretagne", "32", "Homme", "Je suis musicienne.");
+let personnage7 = new personnage("55", "La violoniste", "femme26-35-1.jpg", "femme", "Bretagne", "32", "Homme", "Je suis musicienne.");
 let personnage8 = new personnage("56", "Will91", "homme26-35-1.jpg", "homme", "Ile-de-France", "26", "Femme", "J'adore les randonnées.");
 let personnage9 = new personnage("57", "Bella", "femme26-35-2.jpg", "femme", "Bretagne", "33", "Homme", "Je suis une passionnée de sport.");
 let personnage10 = new personnage("58", "Shoot Boy", "homme26-35-2.jpg", "homme", "Hauts-de-France", "30", "Femme", "J'adore la photographie.");
@@ -37,64 +37,137 @@ let personnage23 = new personnage("71", "Douceur", "femmeplus50-3.jpg", "femme",
 let personnage24 = new personnage("72", "Grand matou", "hommeplus50-3.jpg", "homme", "Provence-Alpes", "64", "Femme", "J'adore les animaux.");
 
 
-const personnages = [
-    personnage1,
-    personnage2,
+const All = [personnage1,
     personnage3,
-    personnage4,
     personnage5,
-    personnage6,
-    personnage7,
     personnage8,
-    personnage9,
     personnage10,
-    personnage11,
     personnage12,
-    personnage13,
     personnage14,
-    personnage15,
     personnage16,
-    personnage17,
     personnage18,
-    personnage19,
     personnage20,
-    personnage21,
     personnage22,
-    personnage23,
+    personnage24,
+    personnage2,
+    personnage4,
+    personnage6,
+    personnage9,
+    personnage11,
+    personnage13,
+    personnage15,
+    personnage17,
+    personnage19,
+    personnage21,
+    personnage23
+
+]
+
+const hommes = [
+    personnage1,
+    personnage3,
+    personnage5,
+    personnage8,
+    personnage10,
+    personnage12,
+    personnage14,
+    personnage16,
+    personnage18,
+    personnage20,
+    personnage22,
     personnage24
 ]
 
-let createElement = {
-    createCard() {
-        for (let i = 0; i < personnages.length; i++) {
+const femmes = [
+    personnage2,
+    personnage4,
+    personnage6,
+    personnage9,
+    personnage11,
+    personnage13,
+    personnage15,
+    personnage17,
+    personnage19,
+    personnage21,
+    personnage23,]
+
+
+
+function affichage() {
+    let filter = document.getElementById("genderFilter").value;
+
+    if (filter == "Hommes") {
+        infos.innerHTML = ""
+        for (let i = 0; i < hommes.length; i++) {
             let card = document.createElement("div")
             card.classList.add("card")
-            card.innerHTML = 
-            `
-        
-            
-             <h2>${personnages[i].pseudo}</h2>
-             <img src="img/${personnages[i].picture}"  alt="Photo Héros">
-             <ul>
-             <li>J'ai ${personnages[i].age} ans</li>
-             <li>Genre : ${personnages[i].gender}</li>
-             <li>Je recherche : ${personnages[i].search}</li>
-             <li>Région : ${personnages[i].region}</li>
-             </ul>
-             <p>${personnages[i].description}</p>
-             <button>Voir plus</button>
+            card.innerHTML =
+                `
+                         <h2>${hommes[i].pseudo}</h2>
+                         <img src="../img/${hommes[i].picture}"  alt="Photo">
+                         <ul>
+                         <li>J'ai ${hommes[i].age} ans</li>
+                         <li>Genre : ${hommes[i].gender}</li>
+                         <li>Je recherche : ${hommes[i].search}</li>
+                         <li>Région : ${hommes[i].region}</li>
+                         </ul>
+                         <p>${hommes[i].description}</p>
+                         <button href="">Voir plus</button>
+                        `
 
-
-            `
-
-           infos.appendChild(card)
-            
-
-            }
-
+            infos.appendChild(card)
+        }
+    } else if (filter == "Femmes") {
+        infos.innerHTML = ""
+        for (let i = 0; i < femmes.length; i++) {
+            let card = document.createElement("div")
+            card.classList.add("card")
+            card.innerHTML =
+                `
+                         <h2>${femmes[i].pseudo}</h2>
+                         <img src="../img/${femmes[i].picture}"  alt="Photo">
+                         <ul>
+                         <li>J'ai ${femmes[i].age} ans</li>
+                         <li>Genre : ${femmes[i].gender}</li>
+                         <li>Je recherche : ${femmes[i].search}</li>
+                         <li>Région : ${femmes[i].region}</li>
+                         </ul>
+                         <p>${femmes[i].description}</p>
+                         <button href="">Voir plus</button>
+                        `
+            infos.appendChild(card)
         }
     }
 
+    else if (filter == "all") {
+        infos.innerHTML = ""
+        for (let i = 0; i < All.length; i++) {
+            let card = document.createElement("div")
+            card.classList.add("card")
+            card.innerHTML =
+                `
+                         <h2>${All[i].pseudo}</h2>
+                         <img src="../img/${All[i].picture}"  alt="Photo">
+                         <ul>
+                         <li>J'ai ${All[i].age} ans</li>
+                         <li>Genre : ${All[i].gender}</li>
+                         <li>Je recherche : ${All[i].search}</li>
+                         <li>Région : ${All[i].region}</li>
+                         </ul>
+                         <p>${All[i].description}</p>
+                         <button href="">Voir plus</button>
+                        `
+            infos.appendChild(card)
+        }
 
-infos.appendChild(createElement.createCard())
+    }
+
+
+
+
+}
+
+let filter = document.getElementById("genderFilter");
+
+filter.addEventListener("change", affichage);
 
