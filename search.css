@@ -334,7 +334,7 @@ body>header>nav>div>a:nth-child(4) {
     visibility: hidden;
 }
 
-#infos {
+body {
     background-image: url(img/background-search.jpg);
     background-size: 100%;
 }
@@ -851,4 +851,17 @@ body>header>nav>div>a:nth-child(4) {
     font-family: 'Libre Baskerville', serif;
     color: #432818;
 
+}
+
+.foot {
+    font-family: 'Libre Baskerville', serif;
+    color: #F3E4BF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+footer {
+    font-family: 'Libre Baskerville', serif;
+    color: #F3E4BF;
 }
