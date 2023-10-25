@@ -112,7 +112,7 @@ function affichage() {
                          <li>Région : ${hommes[i].region}</li>
                          </ul>
                          <p>${hommes[i].description}</p>
-                         <button href="">Voir plus</button>
+                         <button href="../HTML/voirPlus.html">Voir plus</button>
                         `
 
             infos.appendChild(card)
@@ -133,7 +133,7 @@ function affichage() {
                          <li>Région : ${femmes[i].region}</li>
                          </ul>
                          <p>${femmes[i].description}</p>
-                         <button href="">Voir plus</button>
+                         <button href="../HTML/voirPlus.html">Voir plus</button>
                         `
             infos.appendChild(card)
         }
@@ -155,7 +155,7 @@ function affichage() {
                          <li>Région : ${All[i].region}</li>
                          </ul>
                          <p>${All[i].description}</p>
-                         <button href="">Voir plus</button>
+                         <button href="../HTML/voirPlus.html">Voir plus</button>
                         `
 
             infos.appendChild(card)
