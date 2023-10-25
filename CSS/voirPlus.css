@@ -104,7 +104,6 @@ body>header>nav>div>div>ul {
     background-color: #6F1D1B;
 }
 
-
 body>header>nav>div>div>ul>li:nth-child(2)>a:hover {
     background-color: #99582A;
 
@@ -113,7 +112,6 @@ body>header>nav>div>div>ul>li:nth-child(2)>a:hover {
 body {
     background-color: #BB9457;
 }
-
 
 body>div>div>div {
     margin-bottom: 8rem;
