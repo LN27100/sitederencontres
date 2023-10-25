@@ -18,3 +18,24 @@ majeur.addEventListener("change", checkedd);
 
 
 
+function getCookie (cgu){
+    const cookie = document.cookie.split(";");
+    const value = cookie .find(cookie => cookie.startsWith(cgu)) ?.split ("=")[1]
+    if(value === undefined){
+        return null;
+
+    }
+    return decodeURI(value)
+}
+
+function getCookieA (majeur){
+    const cookie = document.cookie.split(";");
+    const value = cookie .find(cookie => cookie.startsWith(majeur)) ?.split ("=")[1]
+    if(value === undefined){
+        return null;
+
+    }
+    return decodeURI(value)}
+
+
+
