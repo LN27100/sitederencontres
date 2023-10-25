@@ -139,3 +139,57 @@ footer {
 
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        height: 8rem;
+    }
+
+    body > header > nav > div > a {
+        font-size: 1.5rem;
+    }
+
+    body > header > nav > div > ul > li > a {
+        font-size: 1.5rem;
+    }
+
+    img {
+        width: 8rem; 
+    }
+
+    a {
+        margin-right: 15px; 
+    }
+
+    body>header>nav>div>a.navbar-brand,
+    body>header>nav>div>a:nth-child(3),
+    body>header>nav>div>div>a,
+    body > header > nav > div > div > ul > li > a {
+        font-size: 1.8rem; 
+    }
+
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        height: 6rem; 
+    }
+
+    body>div>div>div {
+        margin-bottom: 4rem; 
+    }
+
+    .inscription,
+    .texte {
+        font-size: 1rem; 
+    }
+
+    #button {
+        margin-left: 0; 
+    }
+
+    .foot {
+        margin-left: 0; 
+    }
+
+
+}

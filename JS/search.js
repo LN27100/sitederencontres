@@ -157,17 +157,23 @@ function affichage() {
                          <p>${All[i].description}</p>
                          <button href="">Voir plus</button>
                         `
+
             infos.appendChild(card)
         }
 
     }
 
-
-
-
 }
 
-let filter = document.getElementById("genderFilter");
 
-filter.addEventListener("change", affichage);
+let filter = document.getElementById("genderFilter")
 
+filter.addEventListener("change", affichage)
+
+const resetProfilesLink = document.getElementById("resetProfiles")
+resetProfilesLink.addEventListener("click", function (event) {
+    event.preventDefault(); // Empêche la navigation vers une autre page
+
+    // Réinitialisez l'affichage en supprimant les éléments actuels de 'infos'
+    infos.innerHTML = ""
+})
