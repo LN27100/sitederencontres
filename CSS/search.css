@@ -37,7 +37,6 @@ body>header>header>nav>div>a {
 body>header>nav>div>div>ul>li:nth-child(1)>a {
     text-decoration: none;
     color: #F3E4BF;
-
 }
 
 body>header>nav>div>div>ul>li:nth-child(2)>a {
@@ -92,13 +91,14 @@ body>header>nav>div>div>ul>li:nth-child(2)>a {
         font-size: 1.5rem;
     }
 }
-
-#infos>div>button {
+#infos > div > a > button {
     background-color: #6F1D1B;
     border-color: #6F1D1B;
     font-family: 'Kalam', cursive;
     color: #F3E4BF;
     margin-bottom: 1rem;
+    width: 5rem;
+    height: auto;
 }
 
 #infos>div:nth-child(1)>img {
