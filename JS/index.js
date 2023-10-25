@@ -4,9 +4,9 @@ let button = document.getElementById("button");
 
 function checkedd() {
     console.log('ok')
-    if(cgu.checked && majeur.checked){
+    if (cgu.checked && majeur.checked) {
         button.disabled = false;
-    }else{
+    } else {
         button.disabled = true;
     }
 
@@ -18,24 +18,21 @@ majeur.addEventListener("change", checkedd);
 
 
 
-function getCookie (cgu){
-    const cookie = document.cookie.split(";");
-    const value = cookie .find(cookie => cookie.startsWith(cgu)) ?.split ("=")[1]
-    if(value === undefined){
-        return null;
-
+document.getElementById("cgu").addEventListener("click", function () {
+    if (cgu.checked) {
+        var expirationDate = new Date();
+        expirationDate.setDate(expirationDate.getDate() + 365);
+        document.cookie = "acceptConditions=true; expires=" + expirationDate.toUTCString();
     }
-    return decodeURI(value)
-}
+});
 
-function getCookieA (majeur){
-    const cookie = document.cookie.split(";");
-    const value = cookie .find(cookie => cookie.startsWith(majeur)) ?.split ("=")[1]
-    if(value === undefined){
-        return null;
-
+document.getElementById("majeur").addEventListener("click", function () {
+    if (majeur.checked) {
+        var expirationDate = new Date();
+        expirationDate.setDate(expirationDate.getDate() + 365);
+        document.cookie = "Majeur=true; expires=" + expirationDate.toUTCString();
     }
-    return decodeURI(value)}
+});
 
 
 
