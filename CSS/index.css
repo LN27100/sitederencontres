@@ -15,13 +15,13 @@ body {
 }
 
 body>div>div>div {
-    background-color: rgba (187, 148, 87, 0.9); 
+    background-color: rgba(187, 148, 87, 0.5);
     box-shadow: 10px 10px 10px 0px #6f1d1b;
     -webkit-box-shadow: 10px 10px 10px 0px #6f1d1b;
     -moz-box-shadow: 10px 10px 10px #6f1d1b;
     filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=10, OffY=10, Color='#6f1d1b', Positive='true');
     zoom: 1;
-    border:solid #BB9457;
+    border: solid #BB9457;
 
 }
 
@@ -56,7 +56,8 @@ body>header>nav>div>div>a {
     font-family: 'Kalam', cursive;
     color: #F3E4BF;
 }
-body > header > nav > div > div > ul {
+
+body>header>nav>div>div>ul {
     text-decoration: none;
     font-size: 2rem;
     font-family: 'Kalam', cursive;
@@ -91,7 +92,7 @@ body {
 }
 
 
-body > div > div > div {
+body>div>div>div {
     margin-bottom: 8rem;
 }
 
@@ -113,7 +114,7 @@ body > div > div > div {
     border-color: #6F1D1B;
     font-family: 'Kalam', cursive;
     color: #F3E4BF;
-margin-left: 14.7rem;
+    margin-left: 14.7rem;
 }
 
 .textInv {
@@ -129,6 +130,7 @@ footer {
     font-family: 'Libre Baskerville', serif;
     color: #F3E4BF;
 }
+
 .foot {
     font-family: 'Libre Baskerville', serif;
     color: #F3E4BF;
@@ -144,51 +146,51 @@ footer {
         height: 8rem;
     }
 
-    body > header > nav > div > a {
+    body>header>nav>div>a {
         font-size: 1.5rem;
     }
 
-    body > header > nav > div > ul > li > a {
+    body>header>nav>div>ul>li>a {
         font-size: 1.5rem;
     }
 
     img {
-        width: 8rem; 
+        width: 8rem;
     }
 
     a {
-        margin-right: 15px; 
+        margin-right: 15px;
     }
 
     body>header>nav>div>a.navbar-brand,
     body>header>nav>div>a:nth-child(3),
     body>header>nav>div>div>a,
-    body > header > nav > div > div > ul > li > a {
-        font-size: 1.8rem; 
+    body>header>nav>div>div>ul>li>a {
+        font-size: 1.8rem;
     }
 
 }
 
 @media (max-width: 480px) {
     .navbar {
-        height: 6rem; 
+        height: 6rem;
     }
 
     body>div>div>div {
-        margin-bottom: 4rem; 
+        margin-bottom: 4rem;
     }
 
     .inscription,
     .texte {
-        font-size: 1rem; 
+        font-size: 1rem;
     }
 
     #button {
-        margin-left: 0; 
+        margin-left: 0;
     }
 
     .foot {
-        margin-left: 0; 
+        margin-left: 0;
     }
 
 
