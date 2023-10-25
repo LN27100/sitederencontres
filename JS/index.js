@@ -17,22 +17,26 @@ cgu.addEventListener("change", checkedd);
 majeur.addEventListener("change", checkedd);
 
 
+document.getElementById("button").addEventListener("click", function (event) {
+    document.cookie = "cgu=on"
+})
 
-document.getElementById("cgu").addEventListener("click", function () {
-    if (cgu.checked) {
-        var expirationDate = new Date();
-        expirationDate.setDate(expirationDate.getDate() + 365);
-        document.cookie = "acceptConditions=true; expires=" + expirationDate.toUTCString();
+function getCookie(name) {
+    const cookies = document.cookie.split('; ')
+    const value = cookies.find(c => c.startsWith(name + "="))?.split('=')[1]
+    if (value === undefined) {
+        return false
+    } else {
+        return true
     }
-});
+} 
 
-document.getElementById("majeur").addEventListener("click", function () {
-    if (majeur.checked) {
-        var expirationDate = new Date();
-        expirationDate.setDate(expirationDate.getDate() + 365);
-        document.cookie = "Majeur=true; expires=" + expirationDate.toUTCString();
-    }
-});
+if (getCookie('cgu')) {
+    window.location.href = '../HTML/search.html';
+    exit()
+}
+
+console.log(getCookie("toto"))
 
 
 

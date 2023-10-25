@@ -155,7 +155,7 @@ function affichage() {
                          <li>Région : ${All[i].region}</li>
                          </ul>
                          <p>${All[i].description}</p>
-                         <button>Voir plus</button>
+                         <a><button>Voir plus</button></a>
                         `
 
             infos.appendChild(card)
